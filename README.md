@@ -9,9 +9,9 @@ This website is explaining Egyptian history and  dynasties from 1 to 30 with the
 ## screenshots 
 
 
-<img width="1366" height="768" alt="Screenshot (24)" src="https://github.com/user-attachments/assets/c204280f-e464-444f-a60d-68ef5a5b1a49" />
-<img width="1366" height="768" alt="Screenshot (23)" src="https://github.com/user-attachments/assets/b6f3918d-bb78-4d87-8de2-caa0db331d51" />
-<img width="1366" height="768" alt="Screenshot (22)" src="https://github.com/user-attachments/assets/ea419b57-95ba-44b5-9819-47430509f456" />
+<img width="1366" height="768" alt="Screenshot (26)" src="https://github.com/user-attachments/assets/616c1d3d-c510-4d9d-9fb1-a4f95f025c8b" />
+<img width="1366" height="768" alt="Screenshot (27)" src="https://github.com/user-attachments/assets/bd3aeb74-a462-460e-b6d3-7360d40602f0" />
+<img width="1366" height="768" alt="Screenshot (25)" src="https://github.com/user-attachments/assets/55a24477-ae2b-4c3d-b03a-511fd489e085" />
 
 ## about
 This is my 4th website 
