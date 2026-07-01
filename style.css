@@ -1,0 +1,628 @@
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+margin: 0px;
+overflow-x: hidden;
+background-color: #e0c992;
+}
+.hedderdiv{
+    background-image:linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0.5)), url("img/hedback.png");
+    width: 100%;
+    height: 100vh;
+        background-size: 250vh;
+    background-position:top ;
+    background-repeat:no-repeat;
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   
+}
+#welegy{
+font-size: clamp(10px,5vw,40px);
+color:gold;
+text-shadow:
+0 0 5px gold,
+0 0 10px gold,
+0 0 40px goldenrod;;
+transition: 0.7s;
+  font-family: "Bungee", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+    transition: 0.6s;
+}
+#welegy:hover{
+transform: scale(1.2);
+}
+.nav{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+    position: sticky;
+    top:0;
+    z-index:1000;
+    width: 100%;
+}
+.a{
+    text-decoration: none;
+    padding:3px ;
+    color: goldenrod;
+    border: 2px solid ;
+    border-radius: 6px;
+    transition: 0.5s;
+    box-shadow: 0 0 30px;
+}
+.a:hover{
+    text-decoration: none;
+    background-color:rgb(116, 109, 49) ;
+    color: goldenrod;
+    transform:scale(1.2);
+
+}
+.a:active{
+    text-decoration: none;
+    background-color:rgb(116, 109, 49) ;
+    color: goldenrod;
+    transform: scale(1);
+}
+.tlbut{
+
+    font-size: clamp(15px,3vw,30px);
+    background-color: #332707;
+    color: #e0c992;
+    border: #332707 solid 2px;
+    margin: 5px;
+    border-radius: 20px;
+    padding: 10px;
+}
+.tlbut:hover{
+    background-color: #e0c992;
+    color: #332707;
+   
+}
+.egytl{
+    display: flex;
+    justify-content: center;
+        border: #332707 solid  3px;
+    font-size: 60px;
+    width: fit-content;
+    border-radius: 20px;
+    background-color: #000000;
+
+color: #e0c992;
+    transition: 0.3s;
+    text-align: center;
+   padding: 10px;
+   font-size: clamp(15px,3vw,40px);
+  font-family: "Bungee", sans-serif;
+  font-weight: 400;
+}
+.egytl:hover{
+    transform: scale(1.1);
+}
+
+#egydes{
+    margin: 10px;
+    font-size: larger;
+   margin-bottom: 0px;
+  font-family: "Special Elite", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+#egyptcizi{
+    font-size: clamp(20px,3vw,50px);
+  font-family: "Bungee", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 0px;
+}
+.ec{
+    background-color: #967217;
+    margin: 0px;
+    border: #332707 solid 2px;
+    margin: 7px;
+    border-radius: 20px;
+    padding:10px;
+}
+.numone{
+    border: #332707 solid  3px;
+    font-size: 60px;
+    width: fit-content;
+    border-radius: 20px;
+    background-color: #967217;
+    transition: 0.3s;
+    text-align: center;
+   padding: 10px;
+   font-size: clamp(15px,3vw,40px);
+;  font-family: "Bungee", sans-serif;
+  font-weight: 400
+}
+.no{
+    display: flex;
+    justify-content: center;
+}
+.numone:hover{
+    transform: scale(1.1);
+}
+
+.minapic{
+width: 30vw;
+
+float: right;
+border: #967217 4px solid;
+border-radius: 20px;
+max-width:400px;
+min-width:220px;
+margin: 6%;
+    box-shadow: 0 0 49px #d8bb76 ;
+    transition: 0.3s;
+}
+
+.minapic:hover{
+transform: scale(1.1);
+}
+.earlyachi{
+                font-family: "Special Elite", system-ui;
+    font-weight: 400;
+    font-style: normal;    
+}
+.aarlyachi{
+
+   color: #e0c992;
+}
+.mina{
+    padding: 3%;
+    margin: 2%;
+    border-radius: 20px;
+    background-color: #332707;
+    border: #332707 4px solid;
+        font-family: "Special Elite", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: #e0c992;
+}
+.pp{
+    border: #332707 4px solid;
+    border-radius: 20px;
+
+}
+.star{
+    color: #ffe5a9;
+    font-size: clamp(30px, 4vw , 40px);
+
+  font-family: "Bungee", sans-serif;
+  font-weight: 400;
+}
+.dess{
+    font-family: "Special Elite", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.allmina{
+    border: #d8bb76 3px solid;
+    border-radius: 20px;
+    background-color: #d8bb76;
+    padding: 4%;
+    width: 90%;
+    margin-bottom: 4%;
+}
+.minaach{
+    color: #332707;
+  font-family: "Special Elite", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+#minacrown{
+    float: right;
+        transition: 0.3s;
+    width: 26vw;
+    border: #332707 solid 4px;
+    border-radius: 20px;
+    padding: 15px;
+    margin: 10px;
+    background-color: #967217;
+    box-shadow: 0 0 50px #684f0b;
+    max-width: 11%;
+    min-width: 70px;
+} 
+#minacrown:hover{
+    transform: scale(1.1);
+}
+.allaha{
+    margin-top: 4%;
+        border: #d8bb76 3px solid;
+    border-radius: 20px;
+    background-color: #d8bb76;
+    padding: 4%;
+}
+
+.kn{
+    text-align: center;
+     color: #332707;
+    font-size:30px;
+}
+ol{
+    list-style: none;
+}
+.kingsdes{
+color: #684f0b;
+font-size: clamp(10px,4vw,30px);
+  font-family: "Girassol", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#khasekhem{
+    float: right;  
+    border: #332707 solid 4px;
+    border-radius: 20px;
+        transition: 0.3s;
+    margin: 10px;
+    box-shadow: black 0 0 30px;
+    max-width: 10vw;
+    min-width: 120px;
+
+}
+.kn{
+  font-family: "Bungee", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.oldkingdom{
+        padding: 3%;
+    margin: 2%;
+    border-radius: 20px;
+    background-color: #203307;
+    border: #332707 4px solid;
+
+}
+#zosr{
+    max-width: 21vw;
+    float: right;
+    margin:10px;
+        transition: 0.3s;
+    border: #203307 4px solid;
+    border-radius: 10px;
+    box-shadow: #192c00 0 0 10px;
+}
+#senfro{
+    width: 21vw;
+    max-width: 170px;
+    float: right;
+    margin:10px;
+        transition: 0.3s;
+    border: #203307 4px solid;
+    border-radius: 10px;
+    box-shadow: #192c00 0 0 10px;
+}
+#kofo{
+    width: 30vw;
+        transition: 0.3s;
+    max-width: 300px;
+    float: right;
+    margin:10px;
+    border: #203307 4px solid;
+    border-radius: 10px;
+    box-shadow: #192c00 0 0 10px;
+}
+#Khafre{
+       width: 30vw;
+    max-width: 250px;
+    float: right;
+    margin:10px;
+    border: #203307 4px solid;
+    border-radius: 10px;
+    box-shadow: #192c00 0 0 10px;
+        transition: 0.3s; 
+}
+#Menkaura{
+    width: 25vw;
+    max-width: 200px;
+    float: right;
+    margin:10px;
+    border: #203307 4px solid;
+    border-radius: 10px;
+    box-shadow: #192c00 0 0 10px;
+        transition: 0.3s; 
+}
+.middlekingdom{
+        padding: 3%;
+    margin: 2%;
+    border-radius: 20px;
+    background-color: #073233;
+    border: #091014 4px solid;
+        font-family: "Special Elite", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: #e0c992;
+}
+.secondweak{
+        padding: 3%;
+    margin: 2%;
+    border-radius: 20px;
+    background-color: #07331b;
+    border: #091014 4px solid;
+        font-family: "Special Elite", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: #e0c992;
+}
+.newkingdom{
+            padding: 3%;
+    margin: 2%;
+    border-radius: 20px;
+    background-color: #34381c;
+    border: #091014 4px solid;
+        font-family: "Special Elite", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: #e0c992;
+
+}
+#unas{
+    width: 40vw;
+    max-width: 300px;
+    float: right;
+    margin:10px;
+    border: #203307 4px solid;
+    transition: 0.3s;
+    border-radius: 10px;
+    box-shadow: #192c00 0 0 10px; 
+}
+.inter{
+            padding: 3%;
+    margin: 2%;
+    border-radius: 20px;
+    background-color: #330707;
+    border: #332707 4px solid;
+}
+#MentuhotepII{
+    width: 20vw;
+    max-width: 150px;
+    float: right;
+    margin:10px;
+    border: #203307 4px solid;
+    border-radius: 10px;
+    box-shadow: #192c00 0 0 10px;
+        transition: 0.3s; 
+}
+.Amenemhat{
+    width: 30vw;
+    max-width: 230px;
+    float: right;
+    margin:10px;
+    border: #203307 4px solid;
+    border-radius: 10px;
+    box-shadow: #192c00 0 0 10px;
+        transition: 0.3s; 
+}
+.MentuhotepII{
+    width: 30vw;
+    max-width: 230px;
+    float: right;
+    margin:10px;
+    border: #203307 4px solid;
+    border-radius: 10px;
+    box-shadow: #192c00 0 0 10px; 
+        transition: 0.3s;
+}
+#Hatshepsut{
+        width: 30vw;
+    max-width: 230px;
+    float: right;
+    margin:10px;
+    border: #203307 4px solid;
+    border-radius: 10px;
+    box-shadow: #192c00 0 0 10px;   
+      transition: 0.3s;
+}
+#ThutmoseIII{
+        width: 30vw;
+    max-width: 230px;
+    float: right;
+    margin:10px;
+    border: #203307 4px solid;
+    border-radius: 10px;
+    box-shadow: #192c00 0 0 10px;
+        transition: 0.3s; 
+}
+#Senusret{
+        width: 30vw;
+    max-width: 200px;
+    float: right;
+    margin:10px;
+    border: #203307 4px solid;
+    border-radius: 10px;
+    box-shadow: #192c00 0 0 10px;
+        transition: 0.3s;
+}
+.st{
+    font-size: clamp(30px, 4vw , 40px);
+
+  font-family: "Bungee", sans-serif;
+  font-weight: 400;
+}
+#st2{
+    font-size:25px;
+    margin-left: 30px;
+      font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+.infoo{
+    font-size:20px;
+    
+               font-family: "Special Elite", system-ui;
+    font-weight: 400;
+    font-style: normal;
+
+
+}
+.eve{
+                 font-family: "Special Elite", system-ui;
+    font-weight: 400;
+    font-style: normal;  
+}
+#Akhenaten{
+        width: 30vw;
+    max-width: 230px;
+    float: right;
+    margin:10px;
+    border: #203307 4px solid;
+    border-radius: 10px;
+    box-shadow: #192c00 0 0 10px; 
+        transition: 0.3s;
+}
+#akhinfo{
+    color: #192c00;
+ font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;  
+      transition: 0.3s;
+}
+#Horemheb{
+            width: 30vw;
+    max-width: 230px;
+    float: right;
+    margin:10px;
+    border: #203307 4px solid;
+    border-radius: 10px;
+    box-shadow: #192c00 0 0 10px; 
+        transition: 0.3s;
+}
+#RamessesII{
+                width: 30vw;
+    max-width: 230px;
+    float: right;
+    margin:10px;
+    border: #203307 4px solid;
+    border-radius: 10px;
+    box-shadow: #192c00 0 0 10px; 
+        transition: 0.3s;
+}
+#Tutankhamun{
+    width: 30vw;
+    max-width: 230px;
+    float: right;
+    margin:10px;
+    border: #203307 4px solid;
+    border-radius: 10px;
+    box-shadow: #192c00 0 0 10px; 
+        transition: 0.3s;
+}
+.thirdweak{
+        padding: 3%;
+    margin: 2%;
+    border-radius: 20px;
+    background-color: #2a0733;
+    border: #091014 4px solid;
+        font-family: "Special Elite", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: #e0c992;
+   
+}
+#Psamtik1{
+    width: 30vw;
+    max-width: 180px;
+    float: right;
+    margin:10px;
+    border: #203307 4px solid;
+    border-radius: 10px;
+    box-shadow: #192c00 0 0 10px;
+        transition: 0.3s;
+}
+#Necho{
+ width: 30vw;
+    max-width: 180px;
+    float: right;
+    margin:10px;
+    border: #203307 4px solid;
+    border-radius: 10px;
+    box-shadow: #192c00 0 0 10px;
+        transition: 0.3s;
+}
+#Necho:hover{
+    transform: scale(1.1);
+}
+.latekingdom{
+                padding: 3%;
+    margin: 2%;
+    border-radius: 20px;
+    background-color: #1c3738;
+    border: #091014 4px solid;
+
+    color: #e0c992;
+}
+.end{
+    
+  font-family: "Permanent Marker", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: clamp(15px,3vw,40px);
+}
+#khasekhem:hover{
+    transform: scale(1.1);
+}
+#zosr:hover{
+    transform: scale(1.1);
+}
+#senfro:hover{
+    transform: scale(1.1);
+}
+#kofo:hover{
+    transform: scale(1.1);
+}
+#Khafre:hover{
+    transform: scale(1.1);
+}
+#Menkaura:hover{
+    transform: scale(1.1);
+}
+#unas:hover{
+    transform: scale(1.1);
+}
+#MentuhotepII:hover{
+    transform: scale(1.1);
+}
+.Amenemhat:hover{
+    transform: scale(1.1);
+}
+
+.MentuhotepII:hover{
+    transform: scale(1.1);
+}
+#Hatshepsut:hover{
+    transform: scale(1.1);
+}
+#ThutmoseIII:hover{
+    transform: scale(1.1);
+}
+#Senusret:hover{
+    transform: scale(1.1);
+}
+#Akhenaten:hover{
+    transform: scale(1.1);
+}
+#akhinfo:hover{
+    transform: scale(1.1);
+}
+#Horemheb:hover{
+    transform: scale(1.1);
+}
+#RamessesII:hover{
+    transform: scale(1.1);
+}
+#Tutankhamun:hover{
+    transform: scale(1.1);
+}
+#Psamtik1:hover{
+    transform: scale(1.1);
+}
