@@ -1,6 +1,13 @@
 # Egypt_history
 ## Description 
 This website is explaining Egyptian history and  dynasties from 1 to 30 with the main kings in each period and the achievements for all of them and the important dates for each period and more... :D  
+## Used languages 
+- HTML
+- CSS
+## How to use 
+- Enter the website
+- go to any period you want
+- read about it
 ## AI used in :
 - AI didn't used in bulding this website but i used it iv about 9 lines
 - I didn't used AI at building this website but i used it to collicting some informations and feedback
@@ -21,4 +28,3 @@ This is my 4th website
 - wikipedia
 - chatgpt
 - google
-- ص
